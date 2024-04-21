@@ -1,0 +1,565 @@
+:root {
+    --green-col: rgb(129, 215, 44);
+    --btn-clr: rgb(249, 208, 5);
+    --dark: #121212;
+    --grey-col: rgba(195, 194, 194, 0.292);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    color: var(--dark);
+  }
+  .nav-top {
+    width: 100%;
+    height: 5.2vh;
+    background-color: var(--dark);
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .nav-top p {
+    padding-left: 20px;
+    font-size: 15px;
+    padding-right: 15px;
+  }
+  .first-p {
+    margin-left: 55vw;
+  }
+  .facebook,
+  .twitter,
+  .google,
+  .linkedin,
+  .youtube {
+    padding-left: 20px;
+    color: rgb(200, 199, 199);
+  }
+  .phone {
+    color: var(--green-col);
+  }
+  .nav-top button {
+    background-color: var(--green-col);
+    color: var(--dark);
+    border: none;
+    border-radius: 3px;
+    height: 3.5vh;
+    width: 103px;
+    font-weight: bold;
+  }
+  .nav-btm {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-btm ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+  }
+  .nav-btm ul li {
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .nav-btm img {
+    height: 60px;
+  }
+  .main1 {
+    width: 100%;
+    height: 60vh;
+    background-color: var(--green-col);
+    /* this image is to be changed */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  .main1 h1 {
+    font-size: 3.7vw;
+    font-weight: 700;
+    padding-top: 16vh;
+    padding-bottom: 2.9vh;
+  }
+  main button {
+    height: 37px;
+    width: 150px;
+    margin-top: 3vw;
+    border: var(--btn-clr);
+    background-color: var(--btn-clr);
+    border-bottom: 4px solid orange;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  .main2 {
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+    height: 60vh;
+  }
+  main h2 {
+    font-size: 2.4vw;
+  }
+  main h2 span {
+    color: var(--green-col);
+  }
+  /* changing most of the p from here */
+  .main2 p,
+  .main4 p,
+  .main5 p,
+  .main6 p,
+  .main7 .only,
+  .main8 p,
+  .main9 p,
+  .main10 .p-up {
+    font-size: 11px;
+    opacity: 0.7;
+  }
+  .circs {
+    padding-top: 40px;
+    display: flex;
+    gap: 35px;
+  }
+  .circle {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: var(--grey-col);
+    margin-bottom: 20px;
+  }
+  .circ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ico-circ {
+    font-size: 60px;
+    padding-top: 40px;
+    color: var(--green-col);
+  }
+  .main3 {
+    background-color: var(--grey-col);
+    height: 65vh;
+    width: 100%;
+    display: flex;
+  }
+  .main3 p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .main3-left {
+    padding-left: 80px;
+    padding-top: 20px;
+    width: 40%;
+  }
+  #first-p {
+    padding-top: 60px;
+  }
+  .main3-left h2 {
+    position: absolute;
+    left: 44vw;
+  }
+  .main3-right {
+    width: 60%;
+  }
+  .main3-right img {
+    height: 600px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+  }
+  .main4 {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+  }
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding-left: 180px;
+  }
+  .box1 {
+    background-color: var(--grey-col);
+    width: 190px;
+    height: 150px;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  .box1 h5 {
+    margin-top: 20px;
+  }
+  .box1 p {
+    margin-bottom: 20px;
+  }
+  a {
+    color: var(--green-col);
+  }
+  .yellow {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--btn-clr);
+    position: relative;
+    left: 90px;
+    top: 45px;
+  }
+  .star {
+    color: red;
+    font-size: 60px;
+    margin-top: 20px;
+  }
+  .main5 {
+    background-color: var(--dark);
+    color: white;
+    height: 75vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+  .main5 ul {
+    display: flex;
+    padding-left: 23%;
+    padding-top: 20px;
+  }
+  .down li {
+    list-style: none;
+    padding-left: 40px;
+  }
+  .orange {
+    color: var(--btn-clr);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-top: 10px;
+  }
+  .cont {
+    display: flex;
+  }
+  .pics,
+  .pics-grey,
+  .pics-red,
+  .pics-white,
+  .pics-light {
+    height: 170px;
+    width: 200px;
+    background-color: var(--grey-col);
+    border: 4px solid var(--dark);
+  }
+  .pics-grey {
+    background-color: gray;
+  }
+  .pics-red {
+    background-color: rgb(210, 43, 43);
+  }
+  .pics-white {
+    background-color: whitesmoke;
+  }
+  .pics-light {
+    background-color: rgb(27, 27, 27);
+  }
+  .cont ion-icon {
+    font-size: 100px;
+    padding-top: 30px;
+  }
+  .pics-white ion-icon {
+    color: var(--dark);
+  }
+  .pics-light ion-icon {
+    color: rgb(210, 43, 43);
+  }
+  .pics-grey ion-icon {
+    color: rgb(62, 62, 62);
+  }
+  .main6 {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+  }
+  .portions {
+    display: flex;
+    gap: 25px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .round {
+    margin-top: 35px;
+    background-color: transparent;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 2px solid rgb(167, 166, 166);
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+  }
+  .round ion-icon {
+    font-size: 70px;
+    padding-top: 35px;
+    color: var(--green-col);
+  }
+  .yellow-min {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--btn-clr);
+    position: relative;
+    left: 106px;
+    z-index: 2;
+    font-weight: bold;
+    top: 37px;
+  }
+  .main7 {
+    width: 100%;
+    height: 69vh;
+    background-color: var(--grey-col);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-bottom: 20px;
+  }
+  .main7 p {
+    font-size: small;
+    font-weight: bolder;
+  }
+  .main7 h5 {
+    padding-top: 30px;
+  }
+  .stacke {
+    display: flex;
+  }
+  .partition {
+    display: flex;
+    width: 550px;
+  }
+  .partition1 {
+    border-right: 4px solid var(--grey-col);
+    border-bottom: 4px solid var(--grey-col);
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+  .partition3 {
+    border-right: 4px solid var(--grey-col);
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+  .partition2 {
+    border-bottom: 4px solid var(--grey-col);
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+  .partition4 {
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .only {
+    margin-bottom: 20px;
+    color: gray;
+  }
+  .only,
+  .main7 h2 {
+    text-align: center;
+  }
+  .white-circ {
+    height: 110px;
+    width: 310px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+  .white-circ ion-icon {
+    font-size: 70px;
+    margin-left: 16.5px;
+    margin-top: 10px;
+    color: rgba(128, 128, 128, 0.868);
+  }
+  .txt {
+    margin-top: 20px;
+  }
+  .main8 {
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+  }
+  .pie {
+    display: flex;
+    gap: 80px;
+    padding-left: 300px;
+    padding-top: 60px;
+  }
+  .pies {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .pies p {
+    font-weight: 900;
+    margin-top: 40%;
+    font-size: 25px;
+    opacity: 1;
+  }
+  .pie1 {
+    border: 5px solid var(--btn-clr);
+    color: var(--btn-clr);
+  }
+  .pie2 {
+    border: 5px solid rgb(210, 43, 43);
+    color: rgb(210, 43, 43);
+  }
+  .pie3 {
+    border: 5px solid var(--green-col);
+    color: var(--green-col);
+  }
+  .pie4 {
+    border: 5px solid var(--dark);
+    color: var(--dark);
+  }
+  .pie span {
+    position: absolute;
+  }
+  .SP1 {
+    left: 37vw;
+    top: 538vh;
+    font-weight: bold;
+  }
+  .SP2 {
+    left: 53vw;
+    top: 538vh;
+    font-weight: bold;
+  }
+  .SP3 {
+    left: 68.5vw;
+    top: 538vh;
+    font-weight: bold;
+  }
+  .main9 {
+    width: 100%;
+    height: 45vh;
+    background-color: var(--green-col);
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .main9 h1 {
+    padding-top: 40px;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  input {
+    height: 5vh;
+    border: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-right: 15px;
+    width: 12vw;
+    margin-bottom: 35px;
+  }
+  .main10 {
+    width: 100%;
+    height: calc(35vh + 460px);
+  }
+  .p-ups {
+    text-align: center;
+  }
+  .p-down {
+    padding-left: 250px;
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .p-down ion-icon {
+    color: green;
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+  }
+  .p-num {
+    padding-top: 15px;
+    font-weight: 600;
+    display: flex;
+    padding-left: 280px;
+  }
+  .p-num p {
+    padding-left: 90px;
+    font-size: 18px;
+  }
+  .p-num p ion-icon {
+    font-size: 30px;
+    color: green;
+    position: relative;
+    top: 8px;
+    right: 10px;
+  }
+  iframe {
+    margin-top: 50px;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+    padding-top: 60px;
+    background-color: rgb(92, 122, 32);
+    color: whitesmoke;
+    display: flex;
+    font-size: 13px;
+  }
+  .foot1 {
+    width: 300px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .foot1 p {
+    position: relative;
+    bottom: 100px;
+  }
+  .p-copy {
+    font-size: 19px;
+    padding-top: 60px;
+    padding-left: 10px;
+  }
+  .img-foot1 {
+    position: relative;
+    bottom: 60px;
+    right: 30px;
+  }
+  li {
+    list-style: none;
+  }
+  .foot2,
+  .foot3,
+  .foot4 {
+    width: 200px;
+    line-height: 25px;
+    font-weight: bold;
+    border-right: 3px solid rgba(245, 245, 245, 0.248);
+    margin-bottom: 50px;
+    padding-left: 50px;
+  }
+  .foot4 {
+    border: none;
+  }
+  li h2 {
+    margin-bottom: 30px;
+  }
+  li ion-icon {
+    color: whitesmoke;
+    font-size: 17px;
+    position: relative;
+    top: 4px;
+    right: 4px;
+  }
+  
